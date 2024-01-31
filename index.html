@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML notes</title>
+    <link rel="stylesheet" href="helloworl.css">
+</head>
+
+<body>
+    <div class="nice-font-div">
+        <h1 style="text-decoration: underline; font-size: 30px">Understanding HTML by creating a HTML file</h1>
+        <br>
+
+        <h2 style="text-decoration: underline; font-size: 25px">Standard Template of An HTML page</h2>
+        <ul style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>DOCTYPE - define the type of document</li>
+            <li>&lt;html&gt; tag</li>
+            <li>&lt;head&gt; tag></li>
+            <li>&lt;body&gt; tag></li>
+        </ul>
+
+        <img src="images/template.png" alt="Template">
+        <br><br>
+        <h2 style="text-decoration: underline; font-size: 25px">HTML Tagging Structure</h2>
+        <p style="font-size: 20px">This line is created using the p tag. Amazing thing about tags is that it can have attributes which allows for more diversity when coding.</p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=SJQdWO8NPknSgz20" target="_blank" style="font-size: 20px">Understand of linking. Click here to find out more</a>
+        <p>The target="_blank" attribute shows the page on a new window instead of replacing the current window</p>
+        <br>
+        <h3 style="font-size: 20px">HTML Comments</h3>
+        <img src="images/comments.png" alt="Comments">
+    </div>
+    <br><br>
+    <div class="nice-font-div">
+        <h2 style="text-decoration: underline;font-size: 25px">Head-Related Tag</h2>
+
+        <ul style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>The head tag section contains information about the page </li>
+            <li>Elements in the &lt;head&gt; tag are usually not visible. (with the exception of  &lt;title&gt tag)</li>
+            <li>&lt;title&gt , &lt;meta&gt , &lt;style&gt , &lt;link&gt , &lt;script&gt</li>
+        </ul>
+
+        <h3 style="font-size: 20px">&lt;meta&gt tag</h3>
+        <img src="images/meta.png" alt="Meta">
+
+        <h3 style="font-size: 20px">&lt;script&gt tag</h3>
+        <img src="images/script.png" alt="Script">
+        <p style="font-size: 20px">It is important to not that script do not have a self closing tag</p>
+        <p style="font-size: 20px">There is a asnyc function for script tag that allows the script to be executed asynchronously. It is executed independently while the page continues to parse</p>
+
+        <h3 style="font-size: 20px">&lt;style&gt & &lt;link&gt tag</h3>
+        <img src="images/stylelink.png" alt="StyleLink">
+    </div>
+    <div class="nice-font-div">
+        <h2 style="text-decoration: underline; font-size: 25px">Body-Related Tag</h2>
+        <ul style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>The body section contains presentation content for the page</li>
+            <li>It can be broken down into a few major catergories such as Text, Form elements, Table and List that encompasses the content of the page (Non-Exhaustive)</li>
+        </ul>
+
+        <h3 style="font-size: 20px">Text-Related tags</h3>
+        <img src="images/textrelated.png" alt="textrelated">
+
+
+        <h3 style="font-size: 20px">Table-Related Tags</h3>
+        <img src="images/table1.png" alt="tablerelated">
+        <p style="font-size: 20px">In addition to &lt;tr&gt, &lt;tdgt, we can also define &lt;thead&gt ,&lt;tbody&gt, &lt;tfoot&gt which allows us to do better styling </p>
+
+        <h3 style="font-size: 20px">List-Related Tags</h3>
+        <ul style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>Ordered List (&lt;ol&gt , &lt;li&gt)  </li>
+            <li>Unordered List (&lt;ul&gt , &lt;li&gt)</li>
+            <li>Defintion List (&lt;ul&gt , &lt;dt&gt ,  &lt;dd&gt)</li>
+        </ul>
+
+        <h3 style="font-size: 20px">&lt;div&gt & &lt;span&gt tag</h3>
+        <img src="images/divspan.png" alt="div&span">
+
+        <h3 style="font-size: 20px">&lt;iframe&gt tag</h3>
+        <img src="images/iframe.png" alt="iframe">
+    </div>
+    <div>
+        <h2 style="text-decoration: underline; font-size:25px">Form-Related tags</h2>
+        <ul style="font-size: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>Form elements should be enclosed within &lt;form&gt...&lt;/form&gt  </li>
+            <li>Attributes such as <b>action</b> - url to submit to , <b>method</b> - get or post is included</li>
+            <li>Form elements like button, checkbox, radi, text etc</li>
+            <li>Elements usually have the name and value attributes</li>
+        </ul>
+        <h3 style="font-size: 20px">&lt;input&gt tag</h3>
+        <form style="border: 2px solid white; padding: 20px;">
+            <input type="text" placeholder="text" style="font-size: 20px" autofocus/><br><br>
+            <input type="password" placeholder="password"  style="font-size: 20px"/><br><br>
+            <input type="checkbox" style="transform: scale(1.5); margin-right: 10px;"/><br><br>
+            <input type="file" style="font-size: 20px"/><br><br>
+            <input type="hidden" name="personId" value="100"/>
+            <input type="button" value="Button 1" style="font-size: 20px"/><br><br>
+            <input type="reset" style="font-size: 20px" /><br><br>
+            <input type="submit" style="font-size: 20px"><br><br>
+            <input type="url" placeholder="Enter url"  style="font-size: 20px" /><br><br>
+            <input type="email" placeholder="user@mail.com" style="font-size: 20px" /><br><br>
+            <input type="color" value="#cc00cc" style="font-size: 20px" /><br><br>
+            <input type="date" value="2017-01-01 style="font-size: 20px" min="2001-01-01" max="2024-12-21"/><br><br>
+            <input type="time" style="font-size: 20px"/>
+
+            <p>Note the use of the autofocus attribute for input type text.
+                 The autofocus attrbute is used to automatically focus a particular form element when the page loads.
+                 This means that as soon as the page is loaded into the browser, the specified element (such as an input field, button, or textarea) becomes the active focus and is ready for user input without the user having to click on it. </p>
+            <p>Also note to put some form validation such as min max</p>
+        </form>
+        <h3 style="font-size: 20px">Regex Validation</h3>
+        <img src="images/regex.png" alt="regex">
+
+        <h3 style="font-size: 20px">Range</h3>
+        <img src="images/range.png" alt="range">
+    </div>
+    <div>
+        <h2 style="text-decoration: underline;font-size: 25px">Semantic tags</h2>
+        <p style="font-size: 20px">Essentially semantic tags are div tags but thr name of the tag is more informative</p>
+        <img src="images/semantic.png" alt="range">
+        <p style="font-size : 20px">By using semantic tags, this would allow a more cleaner and tidier structure rather than a structure with many div id="..."</p>
+
+        <h3 style="font-size: 20px">Contenteditable</h3>
+        <b style="font-size : 15px">Name</b> <span style="font-size: 15px" contenteditable> I am so gay</span>
+        <p>--------------------------------------------------------</p>
+        <h3 style="font-size: 20px">Progress</h3>
+        <progress tyle="width: 300px; height: 100px;" value="0" max="100"></progress> 
+        <p>**The logic of the bar is not completed. It is just for show***</p>
+        <p>------------------------------------------------------------------</p>
+        <h3 style="font-size: 20px">Canvas</h3>
+        <ul style="font-size: 15px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>Used for drawing </li>
+            <li>For charts and graphs</li> 
+        </ul>
+        <p>-------------------------------------------------------------</p>
+
+        <h3 style="font-size: 20px">Scalable Vector Graphics</h3>
+        <ul style="font-size: 15px; font-family: Arial, sans-serif; line-height: 1.6;">
+            <li>Vector graphics format => Allows scaling to any size without a loss in quality </li>
+            <li>Unlike canvas, you can use an XML-like approach to position the drawing compnents</li> 
+        </ul>
+
+        <p>------------------------------------------------------------------------------------------------------------------------</p>
+        <h3 style="font-size: 20px">Videos</h3>
+
+        <video controls>
+            <source src="videos/winter.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video
+            </video>
+        
+        <h3 style="font-size: 20px">Audio</h3>
+        <audio controls>
+            <source src="sound/winter.mp3" type="audio/mpeg"/>
+            Your browser does not support HTML5 audio.
+          </audio>   
+    </div>
+</body>
+</html>
